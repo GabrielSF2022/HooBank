@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    color: white;
 }
 
 body{
@@ -46,6 +47,7 @@ header{
     transition: .40s all ease;
 
 }
+
 .navbar a:hover{
     color:#ffffff;
 }
@@ -54,6 +56,114 @@ header{
     display: none;
     cursor: pointer;
 }
+
+
+/* MAIN */
+.container-main{
+    top: 5rem;
+    height: 90vh;
+    position: relative;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    align-items:center;
+    grid-gap:3rem;
+}
+
+.content-1{
+    padding-left: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction:start;
+    width:auto;
+    background:linear-gradient(125.17deg,#272727 0%,#11101d 100%);
+    align-items: center;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    justify-content: center;
+
+}
+
+.card p{
+    color: #ffffffb3;
+    font-size: 1.2rem;
+    margin: 5px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card img{
+    width: 32px;
+    height: 32px;
+}
+
+.text-content-1{
+    margin-top: 20px;
+}
+
+.text-content-1 .text h1{
+    font-size:4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-content-1 .text h1 span{
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#def9fa .89%,#bef3f5 17.23%,#9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.p-text-content-1{
+    font-size: 18px;
+    line-height:26px;
+    color: #ffffffb3;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.5rem;
+}
+
+.content-2{
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.content-2 img{
+    position:relative;
+    height: auto;
+    width: 50vw;
+    float: right;
+}
+
+.light-1{
+    background: linear-gradient(90deg,#f4c4f3 0%,#fc67fa 100%);
+    filter: blur(900px);
+    width: 40%;
+    height:35%;
+    z-index: 0;
+    top: 0px;
+    position: absolute;
+}
+
+.light-2{
+    background:rgba(255, 255, 255, .6);
+    filter: blur(750px);
+    border-radius: 9999px;
+    width: 80%;
+    height:80%;
+    z-index:1;
+    position: absolute;
+}
+
+
+
 
 @media(max-width:1110px){
     #menu-icon{
@@ -89,14 +199,31 @@ header{
         margin: 0.5rem;
         padding: 0.8rem;
         right: 20px;
-
-    
-
     }
 
     .navbar.open{
         display: block;
         animation: animate-div .40s ease-in-out;
         top: 100%;
+    }
+
+    .container-main{
+        display: block;
+    }
+
+    .card{
+        width: 50%;
+    }
+
+    .p-text-content-1{
+        width: 60vw;
+    }
+
+    .content-2{
+        float: right;
+    }
+    .content-2 img{
+        margin-top: 20px;
+        width: 80vw;
     }
 }
