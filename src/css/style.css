@@ -20,7 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 25px 12px;
-    z-index:1000;
+    z-index:100;
     transition: all ease .35s ease;
 }
 
@@ -59,16 +59,13 @@ header{
 
 
 /* MAIN */
-.container-main{
-    top: 5rem;
-    height: 90vh;
+main{
     position: relative;
-    justify-content: center;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
-    align-items:center;
-    grid-gap:3rem;
+}
+
+.container-main{
+    display: flex;
+    padding-top: 8rem;
 }
 
 .content-1{
@@ -163,7 +160,8 @@ header{
 }
 
 .numbers-section{
-
+    padding-top: 4rem;
+    position: relative;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -236,7 +234,7 @@ header{
     }
 
     .content-2{
-        float: right;
+        justify-content: flex-end;
     }
     .content-2 img{
         margin-top: 20px;
