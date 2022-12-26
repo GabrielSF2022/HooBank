@@ -61,6 +61,8 @@ header{
 /* MAIN */
 main{
     position: relative;
+    min-height: 100vh;
+    height: 100%;
 }
 
 .container-main{
@@ -134,7 +136,7 @@ main{
 
 .content-2 img{
     position:relative;
-    height: auto;
+    height: 70vh;
     width: 50vw;
     float: right;
 }
@@ -160,6 +162,7 @@ main{
 }
 
 .numbers-section{
+    padding-left:50px;
     padding-top: 4rem;
     position: relative;
     display: flex;
@@ -172,11 +175,30 @@ main{
 .numbers-section div{
     flex-direction: row;
     flex: 1 1 0%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
+.numbers-section div h4{
+    font-size: 2.5rem;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #FFFDFF ;
+    font-family: Poppins, sans-serif;
+}
+
+.numbers-section div p{
+    font-size: 1.1rem ;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#def9fa .89%,#bef3f5 17.23%,#9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 @media(max-width:1110px){
@@ -239,5 +261,10 @@ main{
     .content-2 img{
         margin-top: 20px;
         width: 80vw;
+        height: auto;
+    }
+
+    .numbers-section div{
+        display: block;
     }
 }
