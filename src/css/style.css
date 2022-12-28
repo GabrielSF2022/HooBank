@@ -11,6 +11,8 @@ body{
     background-color: #00040F;
 }
 
+
+/* HEADER */
 header{
     position: fixed;
     width: 100%;
@@ -161,6 +163,8 @@ main{
     position: absolute;
 }
 
+
+/* SECTION NUMBERS SECTION */
 .numbers-section{
     padding-left:50px;
     padding-top: 4rem;
@@ -201,70 +205,140 @@ main{
 }
 
 
-@media(max-width:1110px){
-    #menu-icon{
-        display:block;
-        color: white;
-        font-size: 36px;
-    }
+/* INFO 1 */
+.info1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 4rem;
+}
 
-    .navbar{
-        justify-content: space-between;
-        position: absolute;
-        top: -700;
-        display: none;
-        right: 1vw;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        margin-top: -0.5rem; 
-        margin-bottom: -0.5rem;
+.container1-info1{
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    display:flex;
+    flex: 1 1 0%;
+}
 
-        background: linear-gradient(144.39deg,#ffffff -278.56%,#6d6d6d -78.47%,#11101d 91.61%);
-        width: 140px;
-        border-radius: 10px;
-        text-align: center;
-        flex-direction: column;
-    }
+.container1-info1 h2{
+    font-size: 2.8rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-weight: 600;
+    line-height: 70px;
+}
 
-    .navbar a{
-        position: relative;
-        text-align: center;
-        justify-content: center;
-        align-items:center;
-        display: block;
-        margin: 0.5rem;
-        padding: 0.8rem;
-        right: 20px;
-    }
+.container1-info1 p{
+    color: #ffffffb3;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Poppins, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 470px;
+    line-height:28px;
+}
 
-    .navbar.open{
-        display: block;
-        animation: animate-div .40s ease-in-out;
-        top: 100%;
-    }
+.container1-info1 button{
+    background: linear-gradient(157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,#7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    color: #00040F;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 300ms all ease;
+}
 
-    .container-main{
-        display: block;
-    }
+.container1-info1 button:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
-    .card{
-        width: 50%;
-    }
+.container2-info1{
+    margin-left: 50px;
+}
 
-    .p-text-content-1{
-        width: 60vw;
-    }
+.content-container2-info1{
+    display: flex;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 20px;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    transition: 300ms all ease;
+}
 
-    .content-2{
-        justify-content: flex-end;
-    }
-    .content-2 img{
-        margin-top: 20px;
-        width: 80vw;
-        height: auto;
-    }
+.content-container2-info1:hover{
+    background: linear-gradient( 144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61% );
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, .1);
+}
 
-    .numbers-section div{
-        display: block;
-    }
+.img-container2-info1{
+    background-color: #09977c1a;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    display: flex;
+}
+
+.img-container2-info1 img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    vertical-align: middle;
+}
+
+.text-container2-info1{
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 0%;
+    margin-left: 0.75rem;
+}
+
+.text-container2-info1 h4{
+    color: #FFFDFF;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+}
+
+.text-container2-info1 p{
+    font-size:1rem;
+    color: #ffffffb3;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    font-family: Poppins, sans-serif;
+}
+
+/* PRODUCT */
+.product{
+    display: flex;
+    padding-top: 4rem;
+}
+
+.product-image{
+    justify-content: center;
+    flex: 1 1 0%;
+    display: flex;    
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.product-text{
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1 1 0%;
+    display:flex;
+    flex-direction:column;
 }
