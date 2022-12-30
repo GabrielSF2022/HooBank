@@ -55,7 +55,7 @@
     .content-2{
         justify-content: flex-end;
     }
-    .content-2 img{
+    .content-2 img, .info2 img{
         margin-top: 20px;
         width: 80vw;
         height: auto;
@@ -68,9 +68,34 @@
 
     .container2-info1{
         padding-top: 50px;
+        justify-content: center;
+        margin-left: 10px;
     }
 
     .content-container2-info1{
         width: auto;
+    }
+
+
+    .product{
+        flex-direction: column-reverse;
+    }
+
+    .product-text{
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+
+    .product-text p{
+        max-width: 70%;
+    }
+
+    .product-image p{
+        width: 80%;
+        height: 80%;
+    }
+
+    .info2{
+        flex-direction: column;
     }
 }
