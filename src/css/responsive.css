@@ -98,4 +98,60 @@
     .info2{
         flex-direction: column;
     }
+
+    .text-clients{
+        display: block;
+    }
+}
+
+@media(max-width:700px){
+
+    .container-apps div{
+        margin: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-info2 h2, .container-info2 p{
+        font-size: 30px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        white-space: normal;
+        line-height: 30px;
+        max-width:80%;
+    }
+
+    .card-footer{
+        display: block;
+    }
+    .text-card-footer h2{
+        line-height: 50px;
+    }
+
+    .text-card-footer p{
+        line-height: 30px;
+    }
+
+    .card-footer-button{
+        margin-top: 20px;
+        margin-left: 0rem;
+    }
+
+    .container1-footer{
+        display: block;
+    }
+
+    .links-footer div{
+        padding-top: 50px;
+    }
+
+    .container2-footer{
+        display: block;
+    }
+
+    .images-footer{
+        justify-content: center;
+        margin-top: 10px;
+    }
 }
