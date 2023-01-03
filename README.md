@@ -1,27 +1,27 @@
 # <div align="center">📌TELA DE LOGIN📌 </div>
 <h1 align="center">TELA DE LOGIN!!!!
 
-![Tempo e Temperatura - Google Chrome 2022-12-16 19-23-56](https://user-images.githubusercontent.com/97768716/208199536-8c6edbde-9b43-4ce3-99ee-13ab80003801.gif)
+![HooBank - Google Chrome 2023-01-03 14-31-07](https://user-images.githubusercontent.com/97768716/210411200-7b89f890-2555-45e3-828e-f4e381ae4773.gif)
+![Design_sem_nome-removebg-preview](https://user-images.githubusercontent.com/97768716/210411234-53c1b9d9-bbc7-44c6-9a48-ff9e94705e95.png)
 
-![Design_sem_nome-removebg-preview-removebg-preview](https://user-images.githubusercontent.com/97768716/208200158-94c4022e-6561-46fc-b411-0ad51174c6e4.png)
 
   
-  <h2 align="center">
-  <a href="https://gabrielsf2022.github.io/Weather-app/" target="_blank"> Veja o site </a>
+ <h2 align="center">
+  <a href="https://gabrielsf2022.github.io/HooBank/" target="_blank"> Veja o site </a>
 </h2>
 
   
 
-# Descrição do projeto
+ # Descrição do projeto
 
 
-1. API openweathermap, onde é pegado os dados .
+1. Responsividade Mobile .
 
-2. Se ocorrer um erro como cidade não existente ou algum erro na API o usuário sera avisado.
+2. Quando scrollar a pagina o header ira adicionar um background e quando voltar para o topo da pagina ira remover.
 
-3. Botão enter do teclado configurado para ativar o código.
+3. Quando clicar em um link ele ficara com uma cor diferente dos demais e ira encaminhar para o local do site.
 
-4. Se tudo estiver ok, ira aparecer o nome da Cidade e a sigla do Pais, uma imagem para representar como estáo tempo no horario de pesquisa e a temperatura  
+4. Animações de entrada do conteúdo do site.   
   
 
 
